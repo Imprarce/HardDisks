@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/greeting">
+
+    <fragment
+        android:id="@+id/authorization"
+        android:name="com.example.harddisks.AuthPages.AuthorizationFragment"
+        android:label="fragment_autorization"
+        tools:layout="@layout/fragment_authorization" >
+        <action
+            android:id="@+id/action_authorization_to_registration"
+            app:destination="@id/registration" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/registration"
+        android:name="com.example.harddisks.AuthPages.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registration_to_authorization"
+            app:destination="@id/authorization" />
+    </fragment>
+    <fragment
+        android:id="@+id/greeting"
+        android:name="com.example.harddisks.AuthPages.GreetingFragment"
+        android:label="fragment_greeting"
+        tools:layout="@layout/fragment_greeting" >
+        <action
+            android:id="@+id/action_greeting_to_authorization"
+            app:destination="@id/authorization" />
+        <action
+            android:id="@+id/action_greeting_to_registration"
+            app:destination="@id/registration" />
+    </fragment>
+</navigation>

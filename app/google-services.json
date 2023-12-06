@@ -1,0 +1,30 @@
+{
+    "project_info": {
+        "project_number": "320294703459",
+        "project_id": "harddisks-3f306",
+        "firebase_url": "https://harddisks-3f306-default-rtdb.europe-west1.firebasedatabase.app",
+        "storage_bucket": "harddisks-3f306.appspot.com"
+    },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320294703459:android:1c93b3022e0ce99cb68356",
+        "android_client_info": {
+          "package_name": "com.example.harddisks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLwLIt9n4QbFujGHhJWsRM2ANKLK7Gy34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
